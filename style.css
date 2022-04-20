@@ -234,3 +234,240 @@ nav ul li a{
 }
 
 /* ............................footer-container...................... */
+/*.................. media quary.................. */
+
+@media only screen and (max-width: 688px) {
+
+    /* .................home-container................ */
+    .container nav{
+        display: none;
+    }
+    .container{
+        height: auto;
+        width: 100%;
+        background-color:  #2D25A0;
+        margin: 0 auto;
+    }
+    .home-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center; 
+        padding: 20px;  
+    }
+    .home-banner img {
+        height: auto;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .home-detail{
+        font-size: 250%;
+        font-weight: auto;
+        color: #FFFFFF;
+    }
+    .home-btn{
+        background-color: #E02C6D;
+        border: 1px solid black;
+        border-radius: 8px;
+        height: auto;
+        color: #FFFFFF;
+        cursor: pointer;
+    } 
+/* .................home-container................ */
+/* ................player-container...................... */
+    .player-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        padding: 40px 0px 40px 0px;
+        align-items: center;
+        margin: 0px 30px 0px 30px;
+    }
+    .players-data{
+        height: auto;
+        width: 100%;
+    }
+    .player-img img{
+        height: auto;
+        width: 100%;
+    }
+    .player-detaile{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        height: auto;
+        width: 100%;
+    }
+    
+    .player-detaile h2{
+        font-size: 100%;
+        color: #18191F;
+    }
+    .players-data{
+        font-size: 100%;
+        color: #6C6C6C;
+        padding-bottom: 10px;
+    } 
+    
+/* ................player-container...................... */
+
+     .copa-america-container{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        padding: 0 100px 20px 50px;
+    }
+    .copa-detail {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+    }
+    .copa-play img{
+        height: auto;
+        width: 100%;
+        border-radius: 3px;
+        margin-top: 20px;
+    }
+    .copa-info{
+        font-size: 16px;
+        color:#6C6C6C;
+        font-weight: 400;
+        line-height: auto;
+        margin-bottom: 24px;
+    }
+    .copa-header{
+        font-size: 200%;
+        color: #0A0826;
+        margin-bottom: 8px;
+    }
+    .home-btn{
+        background-color: #E02C6D;
+        border: 1px solid black;
+        border-radius: 8px;
+        height: auto;
+        color: #FFFFFF;
+        cursor: pointer; 
+    }
+    .copa-cup-ground {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        margin: 30px 0px 40px 0px;
+    }
+    .stadium-img img {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        border-radius: 20px;
+        margin-top: 5px;
+        padding: 30px;
+    }
+    .ground-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+    }
+    .footer-logo img {
+        height: auto;
+        width: 100%;
+        margin-bottom: -10px;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 35px;
+    }
+}
+/*.................. media quary.................. */
+/*................... mobile-device........................ */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    /* .................home-container................ */
+    .container nav{
+        display: none;
+    }
+    .container{
+        height: auto;
+        width: 100%;
+        background-color:#2D25A0;
+        margin: 0 auto;
+    }
+    .home-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 0px 50px 0px;
+    }
+    .home-banner img {
+        height: 438px;
+        width: 556px;
+        margin-top: 50px;
+    }
+/* .................home-container................ */
+/* ................player-container...................... */
+
+/* ................player-container...................... */
+
+    .player-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        padding: 30px 0px 50px 0px;
+        grid-gap: 10px 7px;
+    }
+    .player-img img{
+        height: auto;
+        width: 100%;
+    }
+    .player-info {
+        border-radius: 5px;
+        padding: 5px 6px 16px 9px;
+        background-color: #FFFFFF;
+        box-shadow: 5px 5px 5px 3px grey;
+    }
+    .copa-america-container {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        padding: 0 50px 20px 50px;
+    }
+    .copa-play img {
+        height: 427px;
+        width: 567px;
+        border-radius: 3px;
+        margin-top: 45px;
+    }
+    .copa-cup-ground {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        margin: 30px 0px 40px 0px;
+    }
+    .stadium-img img {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        border-radius: 20px;
+        margin-top: 5px;
+        padding: 30px;
+    }
+    .ground-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+    }
+}
+/*................... mobile-device........................ */
